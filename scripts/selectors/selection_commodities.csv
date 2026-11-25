@@ -1,0 +1,10 @@
+,rank,tag,mom,vol,beta,score,z_mom,z_vol,z_beta,category,selected
+PDBC,1,Commodities,0.5641,0.2120,-0.3935,1.2307,1.6543,-0.4446,-1.3507,Top half,True
+DBC,2,Commodities,0.5575,0.2119,-0.3926,1.2161,1.6255,-0.4451,-1.3493,Top half,False
+VNQ,3,Real estate,0.0591,0.1419,0.3257,0.0804,-0.5324,-0.9272,-0.3422,Top half,True
+XLRE,4,Real estate,0.0526,0.1463,0.3091,0.0619,-0.5608,-0.8972,-0.3655,Top half,False
+CPER,5,Commodities,0.2788,0.2833,1.1438,0.0342,0.4186,0.0472,0.8049,Bottom half,True
+SGOL,6,Gold,0.0066,0.2870,0.7563,-0.4540,-0.7599,0.0724,0.2615,Bottom half,True
+IAU,7,Gold,0.0056,0.2874,0.7597,-0.4579,-0.7640,0.0754,0.2663,Bottom half,False
+GLD,8,Gold,0.0050,0.2890,0.7655,-0.4641,-0.7666,0.0862,0.2745,Bottom half,False
+SLV,9,Silver,0.1094,0.6296,1.8539,-1.2473,-0.3147,2.4329,1.8005,Bottom half,False

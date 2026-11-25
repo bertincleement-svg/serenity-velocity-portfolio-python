@@ -1,0 +1,304 @@
+a, a:visited {
+    outline: none;
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+    background-color:#0b1424;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+h1
+{
+    display: inline;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: #e2b857;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 2;
+    text-shadow:
+        0 0 6px rgba(226,184,87,0),
+        0 0 18px rgba(226,184,87,0);
+}
+
+
+img {
+    margin: 0;
+    background: none;
+    border: 0;
+    box-shadow: none; }
+
+p{
+    margin: 0 0 20px 0;
+}
+
+
+
+strong{
+    color: #e2b857;
+}
+
+.analytics article{
+    margin-top:50px;
+    column-count: 3;
+}
+
+.center{
+    text-align:center;
+}
+
+.dashboard {
+  width: 100%;
+  height: calc( var(--vh, 1vh) * 100);
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.dashboard figure{
+    display: flex;
+}
+
+.dashboard figure img {
+    height: calc( var(--vh, 1vh) * 50);
+    width:calc( var(--vw, 1vw) * 100/3);
+}
+
+.dashboard figure iframe{
+    height: calc( var(--vh, 1vh) * 50);
+    width:calc( var(--vw, 1vw) * 100/3);
+}
+
+.dashboard body a{
+    position:absolute;
+}
+
+.dashboard body a img{
+    width:15px;
+}
+
+.dashboard a:nth-of-type(1n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 0.3);
+}
+
+.dashboard a:nth-of-type(2n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 34);
+}
+
+.dashboard a:nth-of-type(3n){
+    margin-top:calc( var(--vh, 1vh) * 1);
+    margin-left:calc( var(--vw, 1vw) * 67.5);
+}
+
+.dashboard body a:nth-of-type(4n){
+    margin-top:calc( var(--vh, 1vh) * 51); 
+    margin-left:calc( var(--vw, 1vw) * 1);
+}
+
+.dashboard a:nth-of-type(5n){
+    margin-top:calc( var(--vh, 1vh) * 51);
+    margin-left:calc( var(--vw, 1vw) * 34);
+}
+
+.dashboard a:nth-of-type(6n){
+    margin-top:calc( var(--vh, 1vh) * 51);
+    margin-left:calc( var(--vw, 1vw) * 67.5);
+}
+
+
+.analytics article img{
+    width:calc( var(--vw, 1vw) * 31);
+}
+
+.dashboard div a{
+    position:absolute;
+}
+
+.dashboard div img, .dashboard div iframe{
+    height: calc( var(--vh, 1vh) * 50);
+    width:calc( var(--vw, 1vw) * 100/3);
+}
+
+.dashboard div a:after, .analytics nav a:after{
+    position: absolute;
+    z-index:1;
+    content: url('../img/menu.svg');
+}
+
+.index{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* full viewport height */
+  height: auto;        /* la page peut dépasser l'écran et défiler */
+  overflow-y: auto;
+  background-image: radial-gradient(circle at 15% 0%, rgba(53,198,181,0.16), transparent 45%), radial-gradient(circle at 90% 100%, rgba(226,184,87,0.14), transparent 45%);
+}
+
+.index section{
+margin:10px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+}
+
+.logo2:focus {
+    outline:none;
+}
+
+.logo2{
+    position: absolute;
+    right:10px;
+    z-index:1;
+    content: url('../img/logo.svg');
+    width:30px;
+    height:30px;
+}
+
+.logo2:active {
+    outline:none;
+    transform:scale(0.96);
+}
+
+.logo2:focus {
+    outline:none;
+}
+
+.button{
+    font-weight:bold;
+    text-align:center;
+    background-color: #e2b857;
+    width:100px;
+    padding:5px;
+    border-radius:5px;
+}
+
+.button:active {
+    outline:none;
+    transform:scale(0.96);
+}
+
+.button:focus {
+    outline:none;
+}
+
+.analytics iframe{
+    width:100%;
+    height:300px;
+}
+
+.panel{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: auto; 
+}
+
+.panel article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 600px;
+}
+
+/* ===================== Billon & Bertin Capital additions ===================== */
+
+/* --- index --- */
+.index .tagline{ margin:10px 0 0 70px; font-size:22px; color:#dddddd; }
+.index .team{
+    display:flex; flex-wrap:wrap; gap:20px; margin:20px 10px;
+}
+.index .team article{
+    flex:1 1 260px; max-width:420px;
+    background:rgba(20,20,30,0.75); border:1px solid rgba(226,184,87,0.35);
+    border-radius:10px; padding:15px 20px;
+}
+.index .team article.about{ flex:2 1 420px; max-width:640px; }
+.index .team h2{ line-height:1.4; }
+.index .team p{ font-size:17px; margin:6px 0 0 0; }
+.index .team .role{ color:#e2b857; font-weight:bold; }
+.panel iframe{ width:420px; height:280px; border:0; }
+.button{ width:auto; min-width:100px; padding:6px 16px; }
+
+/* --- analytics pages --- */
+.analytics section{ padding:20px 50px 60px 20px; }
+.analytics .charts{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(520px, 1fr));
+    gap:20px; margin-top:40px;
+}
+.analytics .charts figure{ margin:0; }
+.analytics .charts iframe{ width:100%; height:440px; border:0; }
+.analytics figcaption{ font-size:14px; color:#aaaaaa; text-align:center; }
+.analytics article.report{ column-count:1; max-width:1200px; }
+.analytics article.report p, .analytics .list{ font-size:18px; line-height:1.5; }
+.analytics .list{ margin:0 0 20px 25px; list-style:disc; }
+.analytics sub{ font-size:12px; vertical-align:sub; }
+table.kpi{ border-collapse:collapse; font-size:16px; margin:5px 0 30px 0; }
+table.kpi th{ background:#35c6b5; padding:8px 14px; text-align:left; }
+table.kpi td{ padding:6px 14px; border-bottom:1px solid #555555; }
+table.kpi tr:hover td{ background:#16233a; }
+
+/* news cards, images and videos */
+.news{ display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:18px; margin-bottom:20px; }
+.news .card{ background:#16233a; border-radius:8px; overflow:hidden; display:block; }
+.news .card:hover{ text-decoration:none; outline:2px solid #35c6b5; }
+.news .card img{ width:100%; height:150px; object-fit:cover; }
+.news .card div{ padding:10px 14px; }
+.news .card small{ color:#e2b857; font-size:13px; }
+.news .card h3{ font-size:17px; font-weight:bold; margin:6px 0; }
+.news .card p{ font-size:14px; color:#cccccc; }
+.video{ position:relative; width:100%; max-width:720px; aspect-ratio:16/9; margin:10px 0 30px 0; }
+.video iframe{ width:100%; height:100%; border:0; }
+.media{ display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:18px; margin-bottom:30px; }
+.media img{ width:100%; border-radius:8px; }
+table.kpi .z{ display:inline-block; padding:1px 5px; border-radius:4px; font-size:13px; margin-left:4px; }
+
+
+/* ===================== Identité visuelle : "private bank" (marine, or, turquoise) ===================== */
+body{ font-family:"Avenir Next", "Helvetica Neue", Helvetica, sans-serif; }
+h1, h2{ font-family:Georgia, "Times New Roman", serif; letter-spacing:0.3px; }
+h2{ font-weight:600; }
+.button{ color:#0b1424 !important; letter-spacing:1px; text-transform:uppercase; font-size:15px; border-radius:999px; padding:9px 26px; }
+.button:hover{ text-decoration:none; background:#f0cd7a; }
+table.kpi th{ color:#0b1424; }
+
+/* index */
+.index .hero{ padding:40px 60px 10px 60px; }
+.index .hero .eyebrow{ color:#35c6b5; font-size:14px; letter-spacing:4px; text-transform:uppercase; margin:0 0 10px 0; }
+.index .hero h1{ display:block; font-size:62px; margin:0; font-weight:600; line-height:1.05; }
+.index .hero h1 span{ color:#e2b857; font-style:italic; }
+.index .hero .tagline{ margin:18px 0 0 0; font-size:21px; color:#b8c0cc; max-width:720px; line-height:1.45; }
+.index .rule{ height:1px; border:0; margin:26px 60px; background:linear-gradient(90deg, #e2b857, rgba(226,184,87,0)); }
+.index .team{ margin:0 50px; }
+.index .team article{ position:relative; background:rgba(22,35,58,0.72); border:1px solid rgba(226,184,87,0.28); border-radius:14px; padding:18px 22px 18px 90px; }
+.index .team article.about{ padding-left:22px; border-color:rgba(53,198,181,0.35); }
+.index .team .avatar{ position:absolute; left:20px; top:20px; width:50px; height:50px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-family:Georgia, serif; font-size:20px; color:#0b1424; background:linear-gradient(135deg, #e2b857, #35c6b5); }
+.index .panel{ margin:10px 50px 30px 50px; gap:30px; }
+.index .panel article{ flex:1; background:rgba(22,35,58,0.55); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:22px 10px 8px 10px; }
+.index .panel .fund-name{ font-family:Georgia, serif; font-size:30px; color:#e2b857; margin:0; }
+.index .panel .fund-desc{ font-size:16px; color:#b8c0cc; margin:6px 20px 16px 20px; text-align:center; }
+.index .footer{ text-align:center; color:#6f7d92; font-size:13px; margin:0 0 18px 0; }

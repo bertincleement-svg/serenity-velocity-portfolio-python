@@ -1,0 +1,11 @@
+,rank,tag,mom,vol,beta,score,z_mom,z_vol,z_beta,category,selected
+BTC-USD,1,Crypto,-0.2738,0.4370,1.4850,1.3748,1.4994,-1.5176,-0.8491,Top half,True
+BNB-USD,2,Crypto,-0.3983,0.4259,1.1744,1.0963,0.4892,-1.6172,-1.8324,Top half,True
+LTC-USD,3,Crypto,-0.3744,0.5374,1.4166,0.7416,0.6833,-0.6230,-1.0655,Top half,True
+LINK-USD,4,Crypto,-0.3485,0.6456,1.7278,0.3601,0.8933,0.3417,-0.0800,Top half,True
+ETH-USD,5,Crypto,-0.4084,0.6034,1.9622,0.0817,0.4072,-0.0349,0.6620,Top half,False
+SOL-USD,6,Crypto,-0.4797,0.6186,1.8737,-0.1924,-0.1717,0.1006,0.3819,Bottom half,False
+XRP-USD,7,Crypto,-0.4679,0.6578,1.8731,-0.2490,-0.0758,0.4505,0.3799,Bottom half,False
+DOGE-USD,8,Crypto,-0.6037,0.6481,1.7406,-0.6899,-1.1773,0.3640,-0.0395,Bottom half,False
+AVAX-USD,9,Crypto,-0.5594,0.7401,2.0814,-0.9722,-0.8182,1.1840,1.0393,Bottom half,False
+ADA-USD,10,Crypto,-0.6717,0.7590,2.1964,-1.5510,-1.7295,1.3520,1.4034,Bottom half,False

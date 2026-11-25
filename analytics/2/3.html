@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Velocity Fund - daily returns</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/customize.css">
+  </head>
+  <body class="analytics">
+    <a class="logo2" href="../../index.html"></a>
+    <nav>
+      <a href="../../2.html"></a>
+    </nav>
+    <section>
+      <h1>Velocity Fund - daily returns</h1>
+      <div class="charts"><figure><iframe src="../../img/2/3-1.html"></iframe><figcaption>Daily log returns of each asset</figcaption></figure><figure><iframe src="../../img/2/3-2.html"></iframe><figcaption>Distribution per asset</figcaption></figure><figure><iframe src="../../img/2/3-3.html"></iframe><figcaption>Fund daily returns vs normal</figcaption></figure><figure><iframe src="../../img/2/3-4.html"></iframe><figcaption>Correlation matrix of the 25 assets</figcaption></figure></div>
+      <article class="report">
+
+<h2>On the graph</h2>
+<p>The first chart shows the daily returns of every asset; the box plots compare their distributions. The most volatile asset is <strong>MU</strong> (66.7% annualised) and the least volatile is <strong>VTIP</strong> (1.9%). The worst single day in the universe was -19.82% for EWZ.</p>
+<p>The fund's own daily returns have a skewness of -0.62 and an excess kurtosis of 10.47: the tails are fatter than a normal distribution, which is why the VaR is computed historically rather than only with a normal model.</p>
+<h2>Correlation between assets</h2>
+<p>The correlation matrix shows how the 25 assets move together (+1: identical moves, 0: unrelated, -1: opposite moves). The average pairwise correlation is <strong>0.22</strong>: the lower it is, the more diversified the fund. The most correlated pair is <strong>XOM / CVX</strong> (0.83) and the least correlated pair is <strong>ED / SMH</strong> (-0.38). This is the effect of the correlation filter applied when the assets were selected.</p>
+
+      </article>
+    </section>
+  </body>
+</html>

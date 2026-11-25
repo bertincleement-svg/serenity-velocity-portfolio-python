@@ -1,0 +1,64 @@
+{
+ "fund": "Serenity",
+ "sharpe": null,
+ "params": {
+  "source": "compose_funds.py"
+ },
+ "rules": {
+  "max_weight": 0.1,
+  "min_weight": 0.01,
+  "max_equity": 0.35,
+  "min_equity": null,
+  "max_vol": null,
+  "min_excess_return": 0.0,
+  "sector_caps": {}
+ },
+ "sectors": {},
+ "groups": {
+  "Bonds": [
+   "bond",
+   [
+    "SGOV",
+    "BIL",
+    "VGSH",
+    "SJNK",
+    "STIP",
+    "BNDX",
+    "VCIT",
+    "SCHP"
+   ]
+  ],
+  "Defensive equities": [
+   "equity",
+   [
+    "KO",
+    "AEP",
+    "CB",
+    "BRK-B",
+    "DUK",
+    "SO",
+    "LIN",
+    "ED",
+    "WEC",
+    "XEL"
+   ]
+  ],
+  "Low-volatility equity ETFs": [
+   "equity_etf",
+   [
+    "QUAL",
+    "EFAV",
+    "DGRO",
+    "XLP",
+    "ACWV"
+   ]
+  ],
+  "Commodities & real estate": [
+   "other",
+   [
+    "DBC",
+    "VNQ"
+   ]
+  ]
+ }
+}

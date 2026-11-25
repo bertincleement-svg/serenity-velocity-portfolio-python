@@ -1,0 +1,64 @@
+{
+ "fund": "Velocity",
+ "sharpe": null,
+ "params": {
+  "source": "compose_funds.py"
+ },
+ "rules": {
+  "max_weight": 0.12,
+  "min_weight": 0.01,
+  "max_equity": null,
+  "min_equity": 0.705,
+  "max_vol": null,
+  "min_excess_return": 0.062,
+  "sector_caps": {}
+ },
+ "sectors": {},
+ "groups": {
+  "Equities": [
+   "equity",
+   [
+    "JNJ",
+    "TRGP",
+    "KO",
+    "CB",
+    "MU",
+    "ROST",
+    "ED",
+    "XOM",
+    "AMGN",
+    "CVX",
+    "OKE",
+    "MRK",
+    "COP"
+   ]
+  ],
+  "Equity ETFs": [
+   "equity_etf",
+   [
+    "EFAV",
+    "SMH",
+    "XLV",
+    "QUAL",
+    "XLP",
+    "EWZ",
+    "SCHD"
+   ]
+  ],
+  "Bonds": [
+   "bond",
+   [
+    "VTIP",
+    "SJNK"
+   ]
+  ],
+  "Commodities, real estate & crypto": [
+   "other",
+   [
+    "PDBC",
+    "VNQ",
+    "BTC-USD"
+   ]
+  ]
+ }
+}

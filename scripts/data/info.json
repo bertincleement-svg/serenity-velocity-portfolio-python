@@ -1,0 +1,398 @@
+{
+ "SGOV": {
+  "shortName": "iShares 0-3 Month Treasury Bond",
+  "longName": "iShares 0-3 Month Treasury Bond ETF",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0364,
+  "dividendYield": 3.64,
+  "quoteType": "ETF"
+ },
+ "BIL": {
+  "shortName": "State Street SPDR Bloomberg 1-3",
+  "longName": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0366,
+  "dividendYield": 3.66,
+  "quoteType": "ETF"
+ },
+ "VGSH": {
+  "shortName": "Vanguard Short-Term Treasury ET",
+  "longName": "Vanguard Short-Term Treasury Index Fund ETF Shares",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0376,
+  "dividendYield": 3.76,
+  "quoteType": "ETF"
+ },
+ "SJNK": {
+  "shortName": "State Street SPDR Bloomberg Sho",
+  "longName": "State Street SPDR Bloomberg Short Term High Yield Bond ETF",
+  "returnOnEquity": null,
+  "trailingPE": 0.869108,
+  "yield": 0.0718,
+  "dividendYield": 7.18,
+  "quoteType": "ETF"
+ },
+ "STIP": {
+  "shortName": "iShares 0-5 Year TIPS Bond ETF",
+  "longName": "iShares 0-5 Year TIPS Bond ETF",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0468,
+  "dividendYield": 4.68,
+  "quoteType": "ETF"
+ },
+ "BNDX": {
+  "shortName": "Vanguard Total International Bo",
+  "longName": "Vanguard Total International Bond Index Fund ETF Shares",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0464,
+  "dividendYield": 4.64,
+  "quoteType": "ETF"
+ },
+ "VCIT": {
+  "shortName": "Vanguard Intermediate-Term Corp",
+  "longName": "Vanguard Intermediate-Term Corporate Bond Index Fund ETF Shares",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.050100002,
+  "dividendYield": 5.01,
+  "quoteType": "ETF"
+ },
+ "SCHP": {
+  "shortName": "Schwab U.S. TIPs ETF",
+  "longName": "Schwab U.S. TIPS ETF",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.048899997,
+  "dividendYield": 4.89,
+  "quoteType": "ETF"
+ },
+ "KO": {
+  "shortName": "Coca-Cola Company (The)",
+  "longName": "The Coca-Cola Company",
+  "returnOnEquity": 0.40592998,
+  "trailingPE": 29.345133,
+  "yield": null,
+  "dividendYield": 2.13,
+  "quoteType": "EQUITY"
+ },
+ "AEP": {
+  "shortName": "American Electric Power Company",
+  "longName": "American Electric Power Company, Inc.",
+  "returnOnEquity": 0.10601,
+  "trailingPE": 21.133987,
+  "yield": null,
+  "dividendYield": 3.0,
+  "quoteType": "EQUITY"
+ },
+ "CB": {
+  "shortName": "Chubb Limited",
+  "longName": "Chubb Limited",
+  "returnOnEquity": 0.1425,
+  "trailingPE": 13.364178,
+  "yield": null,
+  "dividendYield": 1.07,
+  "quoteType": "EQUITY"
+ },
+ "BRK-B": {
+  "shortName": "Berkshire Hathaway Inc. New",
+  "longName": "Berkshire Hathaway Inc.",
+  "returnOnEquity": 0.10574,
+  "trailingPE": 16.592499,
+  "yield": null,
+  "dividendYield": 0.0,
+  "quoteType": "EQUITY"
+ },
+ "DUK": {
+  "shortName": "Duke Energy Corporation (Holdin",
+  "longName": "Duke Energy Corporation",
+  "returnOnEquity": 0.10099,
+  "trailingPE": 19.148092,
+  "yield": null,
+  "dividendYield": 3.32,
+  "quoteType": "EQUITY"
+ },
+ "SO": {
+  "shortName": "Southern Company (The)",
+  "longName": "The Southern Company",
+  "returnOnEquity": 0.11897001,
+  "trailingPE": 21.607306,
+  "yield": null,
+  "dividendYield": 3.21,
+  "quoteType": "EQUITY"
+ },
+ "LIN": {
+  "shortName": "Linde plc",
+  "longName": "Linde plc",
+  "returnOnEquity": 0.17723,
+  "trailingPE": 34.7583,
+  "yield": null,
+  "dividendYield": 1.22,
+  "quoteType": "EQUITY"
+ },
+ "ED": {
+  "shortName": "Consolidated Edison, Inc.",
+  "longName": "Consolidated Edison, Inc.",
+  "returnOnEquity": 0.090959996,
+  "trailingPE": 19.28481,
+  "yield": null,
+  "dividendYield": 2.91,
+  "quoteType": "EQUITY"
+ },
+ "WEC": {
+  "shortName": "WEC Energy Group, Inc.",
+  "longName": "WEC Energy Group, Inc.",
+  "returnOnEquity": 0.12494001,
+  "trailingPE": 21.356363,
+  "yield": null,
+  "dividendYield": 3.24,
+  "quoteType": "EQUITY"
+ },
+ "XEL": {
+  "shortName": "Xcel Energy Inc.",
+  "longName": "Xcel Energy Inc.",
+  "returnOnEquity": 0.114350006,
+  "trailingPE": 18.930069,
+  "yield": null,
+  "dividendYield": 2.92,
+  "quoteType": "EQUITY"
+ },
+ "QUAL": {
+  "shortName": "iShares MSCI USA Quality Factor",
+  "longName": "iShares MSCI USA Quality Factor ETF",
+  "returnOnEquity": null,
+  "trailingPE": 25.95327,
+  "yield": 0.0085,
+  "dividendYield": 0.85,
+  "quoteType": "ETF"
+ },
+ "EFAV": {
+  "shortName": "iShares MSCI EAFE Min Vol Facto",
+  "longName": "iShares MSCI EAFE Min Vol Factor ETF",
+  "returnOnEquity": null,
+  "trailingPE": 16.75535,
+  "yield": 0.0297,
+  "dividendYield": 2.97,
+  "quoteType": "ETF"
+ },
+ "DGRO": {
+  "shortName": "iShares Core Dividend Growth ET",
+  "longName": "iShares Core Dividend Growth ETF",
+  "returnOnEquity": null,
+  "trailingPE": 21.478172,
+  "yield": 0.0184,
+  "dividendYield": 1.84,
+  "quoteType": "ETF"
+ },
+ "XLP": {
+  "shortName": "State Street Consumer Staples S",
+  "longName": "State Street Consumer Staples Select Sector SPDR ETF",
+  "returnOnEquity": null,
+  "trailingPE": 24.919724,
+  "yield": 0.024600001,
+  "dividendYield": 2.46,
+  "quoteType": "ETF"
+ },
+ "ACWV": {
+  "shortName": "iShares MSCI Global Min Vol Fac",
+  "longName": "iShares MSCI Global Min Vol Factor ETF",
+  "returnOnEquity": null,
+  "trailingPE": 18.865263,
+  "yield": 0.0183,
+  "dividendYield": 1.83,
+  "quoteType": "ETF"
+ },
+ "DBC": {
+  "shortName": "Invesco DB Commodity Index Trac",
+  "longName": "Invesco DB Commodity Index Tracking Fund",
+  "returnOnEquity": null,
+  "trailingPE": 7.315598,
+  "yield": 0.022,
+  "dividendYield": 2.2,
+  "quoteType": "ETF"
+ },
+ "VNQ": {
+  "shortName": "Vanguard Real Estate ETF",
+  "longName": "Vanguard Real Estate Index Fund ETF Shares",
+  "returnOnEquity": null,
+  "trailingPE": 30.455921,
+  "yield": 0.0363,
+  "dividendYield": 3.63,
+  "quoteType": "ETF"
+ },
+ "AOK": {
+  "shortName": "iShares Core 30/70 Conservative",
+  "longName": "iShares Core 30/70 Conservative Allocation ETF",
+  "returnOnEquity": null,
+  "trailingPE": 19.860998,
+  "yield": 0.035,
+  "dividendYield": 3.5,
+  "quoteType": "ETF"
+ },
+ "JNJ": {
+  "shortName": "Johnson & Johnson",
+  "longName": "Johnson & Johnson",
+  "returnOnEquity": 0.20018,
+  "trailingPE": 42.875565,
+  "yield": null,
+  "dividendYield": 1.9,
+  "quoteType": "EQUITY"
+ },
+ "TRGP": {
+  "shortName": "Targa Resources, Inc.",
+  "longName": "Targa Resources Corp.",
+  "returnOnEquity": 0.73421997,
+  "trailingPE": 25.851326,
+  "yield": null,
+  "dividendYield": 1.71,
+  "quoteType": "EQUITY"
+ },
+ "MU": {
+  "shortName": "Micron Technology, Inc.",
+  "longName": "Micron Technology, Inc.",
+  "returnOnEquity": 0.8826,
+  "trailingPE": 9.673348,
+  "yield": null,
+  "dividendYield": 0.08,
+  "quoteType": "EQUITY"
+ },
+ "ROST": {
+  "shortName": "Ross Stores, Inc.",
+  "longName": "Ross Stores, Inc.",
+  "returnOnEquity": 0.42628,
+  "trailingPE": 26.963724,
+  "yield": null,
+  "dividendYield": 0.8,
+  "quoteType": "EQUITY"
+ },
+ "XOM": {
+  "shortName": "ExxonMobil Holdings Corporation",
+  "longName": "ExxonMobil Holdings Corporation",
+  "returnOnEquity": 0.15528,
+  "trailingPE": 17.546791,
+  "yield": null,
+  "dividendYield": 2.56,
+  "quoteType": "EQUITY"
+ },
+ "AMGN": {
+  "shortName": "Amgen Inc.",
+  "longName": "Amgen Inc.",
+  "returnOnEquity": 0.78353,
+  "trailingPE": 26.801159,
+  "yield": null,
+  "dividendYield": 2.18,
+  "quoteType": "EQUITY"
+ },
+ "CVX": {
+  "shortName": "Chevron Corporation",
+  "longName": "Chevron Corporation",
+  "returnOnEquity": 0.13853,
+  "trailingPE": 15.942731,
+  "yield": null,
+  "dividendYield": 3.28,
+  "quoteType": "EQUITY"
+ },
+ "OKE": {
+  "shortName": "ONEOK, Inc.",
+  "longName": "ONEOK, Inc.",
+  "returnOnEquity": 0.15018,
+  "trailingPE": 13.936708,
+  "yield": null,
+  "dividendYield": 4.86,
+  "quoteType": "EQUITY"
+ },
+ "MRK": {
+  "shortName": "Merck & Company, Inc.",
+  "longName": "Merck & Co., Inc.",
+  "returnOnEquity": 0.05057,
+  "trailingPE": 144.46,
+  "yield": null,
+  "dividendYield": 2.35,
+  "quoteType": "EQUITY"
+ },
+ "COP": {
+  "shortName": "ConocoPhillips",
+  "longName": "ConocoPhillips",
+  "returnOnEquity": 0.17656,
+  "trailingPE": 14.807166,
+  "yield": null,
+  "dividendYield": 2.65,
+  "quoteType": "EQUITY"
+ },
+ "SMH": {
+  "shortName": "VanEck Semiconductor ETF",
+  "longName": "VanEck Semiconductor ETF",
+  "returnOnEquity": null,
+  "trailingPE": 24.938736,
+  "yield": 0.0021,
+  "dividendYield": 0.21,
+  "quoteType": "ETF"
+ },
+ "XLV": {
+  "shortName": "State Street Health Care Select",
+  "longName": "State Street Health Care Select Sector SPDR ETF",
+  "returnOnEquity": null,
+  "trailingPE": 30.624353,
+  "yield": 0.0138,
+  "dividendYield": 1.38,
+  "quoteType": "ETF"
+ },
+ "EWZ": {
+  "shortName": "iShares MSCI Brazil ETF",
+  "longName": "iShares MSCI Brazil ETF",
+  "returnOnEquity": null,
+  "trailingPE": 9.886614,
+  "yield": 0.045100003,
+  "dividendYield": 4.51,
+  "quoteType": "ETF"
+ },
+ "SCHD": {
+  "shortName": "Schwab US Dividend Equity ETF",
+  "longName": "Schwab U.S. Dividend Equity ETF",
+  "returnOnEquity": null,
+  "trailingPE": 19.288605,
+  "yield": 0.0295,
+  "dividendYield": 2.95,
+  "quoteType": "ETF"
+ },
+ "VTIP": {
+  "shortName": "Vanguard Short-Term Inflation-P",
+  "longName": "Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.048,
+  "dividendYield": 4.8,
+  "quoteType": "ETF"
+ },
+ "PDBC": {
+  "shortName": "Invesco Optimum Yield Diversifi",
+  "longName": "Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": 0.0253,
+  "dividendYield": 2.53,
+  "quoteType": "ETF"
+ },
+ "BTC-USD": {
+  "shortName": "Bitcoin USD",
+  "longName": "Bitcoin USD",
+  "returnOnEquity": null,
+  "trailingPE": null,
+  "yield": null,
+  "dividendYield": null,
+  "quoteType": "CRYPTOCURRENCY"
+ },
+ "SPY": {
+  "shortName": "State Street SPDR S&P 500 ETF T",
+  "longName": "State Street SPDR S&P 500 ETF Trust",
+  "returnOnEquity": null,
+  "trailingPE": 23.541016,
+  "yield": 0.01,
+  "dividendYield": 1.0,
+  "quoteType": "ETF"
+ }
+}
